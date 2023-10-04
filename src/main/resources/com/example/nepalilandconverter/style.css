@@ -1,0 +1,78 @@
+.root {
+    -fx-background-color: #EAEEF4;
+}
+
+.side_anchorpane {
+    -fx-background-color:#1565c0;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #1565c0;
+}
+
+.inner_pane {
+    -fx-background-color:#748CF1;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #748CF1;
+}
+
+.most_inner_pane{
+    -fx-background-color:#6780E2;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #748CF1;
+}
+
+.squareFeetButton {
+    -fx-background-color:#1565c0;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #1565c0;
+    -fx-text-fill: white;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 13px;
+}
+
+.exitButton {
+    -fx-background-color:#ba000d;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #ba000d;
+}
+
+.outputPannel {
+    -fx-background-color:#FFFFFF;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #FFFFFF;
+}
+
+.outputHeading {
+    -fx-background-color:#2e7d32;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #2e7d32;
+}
+
+.copySquareFeetButton {
+    -fx-background-color:#2e7d32;
+}
+
+.JFXSlider {
+    -fx-background-color: #2e7d32;
+
+}

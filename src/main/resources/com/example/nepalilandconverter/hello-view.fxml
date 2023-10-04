@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="538.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nepalilandconverter.MainController">
+    <children>
+        <AnchorPane fx:id="side_anchorpane" prefHeight="459.0" prefWidth="188.0" styleClass="side_anchorpane" stylesheets="@style.css">
+        </AnchorPane>
+        <AnchorPane layoutX="188.0" prefHeight="459.0" prefWidth="347.0" styleClass="root" stylesheets="@style.css">
+            <children>
+                <AnchorPane fx:id="outputPannel" layoutX="7.0" layoutY="91.0" prefHeight="365.0" prefWidth="328.0" styleClass="outputPannel" stylesheets="@style.css">
+                    <children>
+                        <GridPane layoutX="30.0" layoutY="17.0" prefHeight="333.0" prefWidth="309.0">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.0" minWidth="10.0" prefWidth="90.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="168.0" minWidth="10.0" prefWidth="142.66668701171875" />
+                                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="80.0" minWidth="10.0" prefWidth="80.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                            </rowConstraints>
+                            <children>
+                                <Label prefHeight="53.0" prefWidth="105.0" text="Square Feet" textFill="#1565c0">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="13.0" />
+                                    </font>
+                                </Label>
+                                <TextField prefHeight="0.0" prefWidth="168.0" GridPane.columnIndex="1" />
+                                <Label layoutX="10.0" layoutY="10.0" prefHeight="53.0" prefWidth="105.0" text="Square Meter" textFill="#1565c0" GridPane.rowIndex="1">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="10.0" layoutY="35.0" prefHeight="53.0" prefWidth="105.0" text="Ro-Aa-Pa-Da" textFill="#1565c0" GridPane.rowIndex="2">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="10.0" layoutY="60.0" prefHeight="53.0" prefWidth="105.0" text="Ropani" textFill="#1565c0" GridPane.rowIndex="3">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="10.0" layoutY="85.0" prefHeight="53.0" prefWidth="105.0" text="Aana" textFill="#1565c0" GridPane.rowIndex="4">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="10.0" layoutY="110.0" prefHeight="53.0" prefWidth="105.0" text="Paisa" textFill="#1565c0" GridPane.rowIndex="5">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="10.0" layoutY="135.0" prefHeight="53.0" prefWidth="105.0" text="Daam" textFill="#1565c0" GridPane.rowIndex="6">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="10.0" layoutY="160.0" prefHeight="53.0" prefWidth="105.0" text="Bi-Ka-Dh" textFill="#1565c0" GridPane.rowIndex="7">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="10.0" layoutY="185.0" prefHeight="53.0" prefWidth="105.0" text="Bigha" textFill="#1565c0" GridPane.rowIndex="8">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="10.0" layoutY="210.0" prefHeight="53.0" prefWidth="105.0" text="Kattha" textFill="#1565c0" GridPane.rowIndex="9">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="10.0" layoutY="235.0" prefHeight="53.0" prefWidth="105.0" text="Dhur" textFill="#1565c0" GridPane.rowIndex="10">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="13.0" />
+                                    </font>
+                                </Label>
+                                <TextField layoutX="100.0" layoutY="10.0" prefHeight="25.0" prefWidth="139.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                <TextField layoutX="100.0" layoutY="35.0" prefHeight="25.0" prefWidth="139.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                <TextField layoutX="100.0" layoutY="60.0" prefHeight="25.0" prefWidth="139.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                <TextField layoutX="100.0" layoutY="85.0" prefHeight="25.0" prefWidth="139.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                <TextField layoutX="100.0" layoutY="110.0" prefHeight="25.0" prefWidth="139.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                <TextField layoutX="100.0" layoutY="135.0" prefHeight="25.0" prefWidth="139.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                <TextField layoutX="100.0" layoutY="160.0" prefHeight="25.0" prefWidth="139.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                <TextField layoutX="100.0" layoutY="185.0" prefHeight="25.0" prefWidth="139.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                <TextField layoutX="100.0" layoutY="210.0" prefHeight="25.0" prefWidth="139.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                                <TextField layoutX="100.0" layoutY="235.0" prefHeight="25.0" prefWidth="139.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                                <JFXButton fx:id="copyRAPDButton" prefHeight="23.0" prefWidth="45.0" styleClass="copySquareFeetButton" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                    <graphic>
+                                        <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/copy_white.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                </JFXButton>
+                                <JFXButton fx:id="copyRopaniButton" layoutX="259.0" layoutY="74.0" prefHeight="23.0" prefWidth="45.0" styleClass="copySquareFeetButton" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                    <graphic>
+                                        <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/copy_white.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                </JFXButton>
+                                <JFXButton fx:id="copySquareMeterButton" layoutX="259.0" layoutY="104.0" prefHeight="23.0" prefWidth="45.0" styleClass="copySquareFeetButton" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                    <graphic>
+                                        <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/copy_white.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                </JFXButton>
+                                <JFXButton fx:id="copySquareFeetButton" layoutX="259.0" layoutY="44.0" prefHeight="23.0" prefWidth="45.0" styleClass="copySquareFeetButton" stylesheets="@style.css" GridPane.columnIndex="2">
+                                    <graphic>
+                                        <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/copy_white.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                </JFXButton>
+                                <JFXButton fx:id="copyAanaButton" layoutX="259.0" layoutY="104.0" prefHeight="23.0" prefWidth="45.0" styleClass="copySquareFeetButton" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                                    <graphic>
+                                        <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/copy_white.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                </JFXButton>
+                                <JFXButton fx:id="copyPaisaButton" layoutX="259.0" layoutY="134.0" prefHeight="23.0" prefWidth="45.0" styleClass="copySquareFeetButton" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                                    <graphic>
+                                        <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/copy_white.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                </JFXButton>
+                                <JFXButton layoutX="259.0" layoutY="164.0" prefHeight="23.0" prefWidth="45.0" styleClass="copySquareFeetButton" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                                    <graphic>
+                                        <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/copy_white.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                </JFXButton>
+                                <JFXButton layoutX="259.0" layoutY="194.0" prefHeight="23.0" prefWidth="45.0" styleClass="copySquareFeetButton" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                                    <graphic>
+                                        <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/copy_white.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                </JFXButton>
+                                <JFXButton layoutX="259.0" layoutY="224.0" prefHeight="23.0" prefWidth="45.0" styleClass="copySquareFeetButton" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                                    <graphic>
+                                        <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/copy_white.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                </JFXButton>
+                                <JFXButton layoutX="259.0" layoutY="254.0" prefHeight="23.0" prefWidth="45.0" styleClass="copySquareFeetButton" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                                    <graphic>
+                                        <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/copy_white.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                </JFXButton>
+                                <JFXButton layoutX="259.0" layoutY="284.0" prefHeight="23.0" prefWidth="45.0" styleClass="copySquareFeetButton" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                                    <graphic>
+                                        <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/copy_white.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                </JFXButton>
+                            </children>
+                        </GridPane>
+                    </children>
+                </AnchorPane>
+                <AnchorPane fx:id="outputHeading" layoutX="7.0" layoutY="3.0" prefHeight="80.0" prefWidth="344.0" styleClass="outputPannel" stylesheets="@style.css">
+                    <children>
+                        <VBox layoutX="22.0" layoutY="11.0" prefHeight="55.0" prefWidth="300.0" spacing="8.0">
+                            <children>
+                                <Label fx:id="currentLabel" text="Square Feet" textFill="#1565c0">
+                                    <font>
+                                        <Font name="Open Sans Regular" size="14.0" />
+                                    </font>
+                                </Label>
+                                <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+                                    <children>
+                                        <HBox fx:id="inputHbox1" alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                              <TextField promptText="Enter the area to convert" HBox.hgrow="SOMETIMES">
+                                                  <font>
+                                                      <Font size="14.0" />
+                                                  </font>
+                                              </TextField>
+                                 </children></HBox>
+                                        <HBox fx:id="inputHbox" alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <TextField promptText="Ro">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField promptText="Aa">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField promptText="Pa">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField promptText="Da">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
