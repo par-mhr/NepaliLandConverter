@@ -1,0 +1,176 @@
+/* Dark Theme */
+.root {
+    -fx-background-color: #121212;
+}
+
+.side_anchorpane {
+    -fx-background-color: #1e1e1e;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #1e1e1e;
+}
+
+.inner_pane {
+    -fx-background-color: #2a2a2a;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #2a2a2a;
+}
+
+.most_inner_pane {
+    -fx-background-color: #333333;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #2a2a2a;
+}
+
+.squareFeetButton {
+    -fx-background-color: #512DA8;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #512DA8;
+    -fx-text-fill: white;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 13px;
+}
+
+.squareFeetButton:hover {
+    -fx-background-color: #4527a0;
+    -fx-border-color: #4527a0;
+}
+
+.squareFeetButtonSelected-dark {
+    -fx-background-color: #66BB6A;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #66BB6A;
+    -fx-text-fill: white;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 13px;
+}
+
+.squareFeetButtonSelected {
+    -fx-background-color: #66BB6A;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #66BB6A;
+    -fx-text-fill: white;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 13px;
+}
+
+.squareFeetButtonSelected:hover {
+    -fx-background-color: #4caf50;
+    -fx-border-color: #4caf50;
+}
+
+.exitButton {
+    -fx-background-color: #C62828;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #C62828;
+}
+
+.outputPannel {
+    -fx-background-color: #1e1e1e;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #1e1e1e;
+}
+
+.outputHeading {
+    -fx-background-color: #2E7D32;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #2E7D32;
+    -fx-text-fill: #FFFFFF;
+}
+
+.copySquareFeetButton {
+    -fx-background-color: #4CAF50;
+    -fx-border-color: #388E3C;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-padding: 4px;
+    -fx-cursor: hand;
+}
+
+.copySquareFeetButton:hover {
+    -fx-background-color: #45a049;
+    -fx-border-color: #2E7D32;
+}
+
+.JFXSlider {
+    -fx-background-color: #2E7D32;
+}
+
+/* TextField styles - increased contrast for readability */
+.text-field {
+    -fx-control-inner-background: #3a3a3a;
+    -fx-text-fill: #FFFFFF;
+    -fx-prompt-text-fill: #AAAAAA;
+    -fx-border-color: #555555;
+    -fx-border-width: 1.0;
+    -fx-padding: 5.0;
+    -fx-font-size: 13.0;
+}
+
+.text-field:focused {
+    -fx-control-inner-background: #4a4a4a;
+    -fx-text-fill: #FFFFFF;
+    -fx-prompt-text-fill: #AAAAAA;
+    -fx-border-color: #66BB6A;
+    -fx-border-width: 2.0;
+}
+
+.text-field:disabled {
+    -fx-control-inner-background: #2a2a2a;
+    -fx-text-fill: #888888;
+    -fx-prompt-text-fill: #666666;
+    -fx-opacity: 0.6;
+}
+
+/* Label and text styles for dark mode */
+.label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 13.0;
+}
+
+/* CheckBox styles for dark theme */
+.check-box {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 13.0;
+}
+
+.check-box:selected {
+    -fx-text-fill: #FFFFFF;
+}
+
+.check-box:focused {
+    -fx-text-fill: #FFFFFF;
+}
+
+/* About button styling */
+#aboutButton {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+

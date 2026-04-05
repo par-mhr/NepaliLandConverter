@@ -1,11 +1,16 @@
-package com.example.nepalilandconverter;
+package com.nepalilandconverter;
 
-import java.util.Scanner;
+import java.util.HashMap;
+import java.util.Map;
 
 public class AreaCalculator {
-    //Conversion from Square Feet
-    void convertFromSquareFeet(double sqFeet) {
-        Scanner scanner = new Scanner(System.in);
+
+    /**
+     * Convert from square feet to all area units
+     * @param sqFeet Input area in square feet
+     * @return Map containing all conversions
+     */
+    public Map<String, String> convertFromSquareFeet(double sqFeet) {
         double sqMeter, ropani, anna, paisa, daam, tempRopani, daamOutput, bigha, kattha, dhur, dhurOutput, tempBigha;
         int ropaniOutput, annaOutput, paisaOutput, bighaOutput, katthaOutput;
 
@@ -30,27 +35,21 @@ public class AreaCalculator {
         katthaOutput = (int) tempBigha;
         dhurOutput = 20 * (tempBigha - katthaOutput);
 
-        //Display output
-        System.out.println("The converted area in Square Feet is "+sqFeet);
-        System.out.println("The converted area in Bigha is "+String.format("%.3f", bigha));
-        System.out.println("The converted area in Kattha is "+String.format("%.3f", kattha));
-        System.out.println("The converted area in Dhur is "+String.format("%.3f", dhur));
-        System.out.print("The converted area in Bigha-Kattha-Dhur is ");
-        System.out.print(bighaOutput+"-");
-        System.out.print(katthaOutput+"-");
-        System.out.printf("%.3f \n", dhurOutput);
-        System.out.println("The converted area in Ropani is "+String.format("%.3f",ropani));
-        System.out.println("The converted area in Anna "+String.format("%.3f",anna));
-        System.out.println("The converted area in Paisa "+String.format("%.3f",paisa));
-        System.out.println("The converted area in Daam "+String.format("%.3f",daam));
-        System.out.print("The converted area in Ropani-Anna-Paisa-Daam is ");
-        System.out.print(ropaniOutput+"-");
-        System.out.print(annaOutput+"-");
-        System.out.print(paisaOutput+"-");
-        System.out.printf("%.3f \n", daamOutput);
-        System.out.println("The converted area in Square Meter is "+String.format("%.3f",sqMeter));
-    }
+        Map<String, String> results = new HashMap<>();
+        results.put("squareFeet", String.format("%.3f", sqFeet));
+        results.put("squareMeter", String.format("%.3f", sqMeter));
+        results.put("ropani", String.format("%.3f", ropani));
+        results.put("anna", String.format("%.3f", anna));
+        results.put("paisa", String.format("%.3f", paisa));
+        results.put("daam", String.format("%.3f", daam));
+        results.put("rapd", ropaniOutput + "-" + annaOutput + "-" + paisaOutput + "-" + String.format("%.3f", daamOutput));
+        results.put("bigha", String.format("%.3f", bigha));
+        results.put("kattha", String.format("%.3f", kattha));
+        results.put("dhur", String.format("%.3f", dhur));
+        results.put("bkdh", bighaOutput + "-" + katthaOutput + "-" + String.format("%.3f", dhurOutput));
 
+        return results;
+    }
 
     public double convertFromSquareMeter(double inputArea) {
         return inputArea * 10.76391042;

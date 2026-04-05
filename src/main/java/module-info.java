@@ -1,11 +1,12 @@
-module com.example.nepalilandconverter {
+module com.nepalilandconverter {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
     requires com.dlsc.formsfx;
 
-    opens com.example.nepalilandconverter to javafx.fxml;
-    exports com.example.nepalilandconverter;
+    opens com.nepalilandconverter to javafx.fxml;
+    exports com.nepalilandconverter;
 
     requires com.jfoenix;
 }

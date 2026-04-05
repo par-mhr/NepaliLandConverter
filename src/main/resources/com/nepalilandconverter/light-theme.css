@@ -1,0 +1,162 @@
+/* Light Theme */
+.root {
+    -fx-background-color: #EAEEF4;
+}
+
+.side_anchorpane {
+    -fx-background-color: #1565c0;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #1565c0;
+}
+
+.inner_pane {
+    -fx-background-color: #748CF1;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #748CF1;
+}
+
+.most_inner_pane {
+    -fx-background-color: #6780E2;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #748CF1;
+}
+
+.squareFeetButton {
+    -fx-background-color: #1565c0;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #1565c0;
+    -fx-text-fill: white;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 13px;
+}
+
+.squareFeetButton:hover {
+    -fx-background-color: #0d47a1;
+    -fx-border-color: #0d47a1;
+}
+
+.squareFeetButtonSelected {
+    -fx-background-color: #4CAF50;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 13px;
+}
+
+.squareFeetButtonSelected:hover {
+    -fx-background-color: #45a049;
+    -fx-border-color: #45a049;
+}
+
+.exitButton {
+    -fx-background-color: #ba000d;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #ba000d;
+}
+
+.outputPannel {
+    -fx-background-color: #FFFFFF;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #FFFFFF;
+}
+
+.outputHeading {
+    -fx-background-color: #2e7d32;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #2e7d32;
+    -fx-text-fill: #FFFFFF;
+}
+
+.copySquareFeetButton {
+    -fx-background-color: #4CAF50;
+    -fx-border-color: #388E3C;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-padding: 4px;
+    -fx-cursor: hand;
+}
+
+.copySquareFeetButton:hover {
+    -fx-background-color: #45a049;
+    -fx-border-color: #2E7D32;
+}
+
+.JFXSlider {
+    -fx-background-color: #2e7d32;
+}
+
+/* TextField styles */
+.text-field {
+    -fx-control-inner-background: #FFFFFF;
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #999999;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1.0;
+    -fx-padding: 5.0;
+}
+
+.text-field:focused {
+    -fx-control-inner-background: #FFFFFF;
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #999999;
+    -fx-border-color: #1565c0;
+    -fx-border-width: 2.0;
+}
+
+.text-field:disabled {
+    -fx-control-inner-background: #F5F5F5;
+    -fx-text-fill: #999999;
+    -fx-prompt-text-fill: #CCCCCC;
+    -fx-opacity: 0.6;
+}
+
+/* Label styles */
+.label {
+    -fx-text-fill: #000000;
+}
+
+/* CheckBox styles for light theme */
+.check-box {
+    -fx-text-fill: #000000;
+    -fx-font-size: 13.0;
+}
+
+.check-box:selected {
+    -fx-text-fill: #000000;
+}
+
+.check-box:focused {
+    -fx-text-fill: #000000;
+}
+
+/* About button styling */
+#aboutButton {
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+
