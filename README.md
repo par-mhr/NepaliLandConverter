@@ -4,31 +4,31 @@ A cross-platform JavaFX application for converting between different land measur
 
 ## Features
 
-✅ **11 Different Land Measurement Units**
+**11 Different Land Measurement Units**
 - Square Feet
+- Square Meter
+- Ropani-Aana-Paisa-Daam
 - Ropani
-- Kattha
-- Dhur
-- Bigha
 - Aana
 - Paisa
 - Daam
-- Hectare
-- Square Meter
-- Acre
+- Bigha-Kattha-Dhur
+- Bigha
+- Kattha
+- Dhur
 
-✅ **Multi-Platform Support**
-- macOS (native app bundle)
-- Windows (installer)
+**Multi-Platform Support**
+- macOS 
+- Windows (
 - Linux (Debian-based distributions)
 
-✅ **User-Friendly Interface**
+**User-Friendly Interface**
 - Light and Dark theme support (follows system preference)
 - Real-time conversions
 - Copy results to clipboard with a single click
-- Non-resizable window with fixed dimensions
+- Non-resizable window with fixed dimensions and always on top checkbox
 
-✅ **Developer-Friendly**
+**Developer-Friendly**
 - Open source (MIT License)
 - Clean JavaFX codebase
 - Maven-based build system
@@ -99,7 +99,7 @@ cd NepaliLandConverter
 
 ### Prerequisites
 
-- Java 20 or later (OpenJDK recommended)
+- Java 25 or later (OpenJDK recommended)
 - Maven 3.6.0 or later
 - Git
 
@@ -125,22 +125,17 @@ cd NepaliLandConverter
 
 #### macOS (requires macOS system)
 ```bash
-# Create DMG installer
-./mvnw clean javafx:run
-# Or use the prepared script
-./run-macos.sh
+#./build-standalone-macos.sh
 ```
 
 #### Windows (requires Windows system)
 ```bash
-# Create MSI installer
-mvnw clean package
+./build-windows.sh
 ```
 
 #### Linux (requires Linux system)
 ```bash
-# Create DEB package
-./mvnw clean package
+./build-linux.sh
 ```
 
 ## Usage
@@ -153,53 +148,15 @@ mvnw clean package
 6. **Always On Top**: Check the checkbox to keep the window on top of other windows
 7. **About**: Click the info button for application details
 
-## Conversion Formula
-
-All conversions are based on the following relationships:
-
-- 1 Kattha = 1800 Square Feet
-- 1 Ropani = 5292 Square Feet
-- 1 Bigha = 14520 Square Feet
-- 1 Hectare = 107639.1 Square Feet
-- 1 Acre = 43560 Square Feet
-- 1 Square Meter = 10.764 Square Feet
-
-## Project Structure
-
-```
-NepaliLandConverter/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/nepalilandconverter/
-│       │       ├── MainApplication.java      # Entry point
-│       │       ├── MainController.java       # UI controller
-│       │       ├── AreaCalculator.java       # Conversion logic
-│       │       ├── ThemeManager.java         # Theme management
-│       │       └── AboutWindow.java          # About dialog
-│       └── resources/
-│           ├── com/nepalilandconverter/
-│           │   ├── main-view.fxml           # Main UI layout
-│           │   ├── style.css                # Base styles
-│           │   ├── light-theme.css          # Light theme
-│           │   └── dark-theme.css           # Dark theme
-│           └── images/
-│               ├── icon.png                 # App icon
-│               ├── icon.icns                # macOS icon
-│               └── copy_white.png           # Copy button icon
-├── pom.xml                                   # Maven configuration
-├── run-macos.sh                             # macOS run script
-└── create-icon.sh                           # Icon creation script
-```
 
 ## Development
 
 ### Technologies Used
 
-- **JavaFX 20.0.1** - UI Framework
+- **JavaFX 25.0.2** - UI Framework
 - **JFoenix 9.0.10** - Material Design components
 - **Maven 3.6+** - Build tool
-- **Java 20** - Programming language
+- **Java 25.0.2** - Programming language
 
 ### Code Style
 
@@ -208,34 +165,10 @@ NepaliLandConverter/
 - Add comments for complex logic
 - Keep methods focused and small
 
-### Testing
-
-```bash
-# Run tests
-./mvnw test
-
-# Run with coverage
-./mvnw test jacoco:report
-```
-
-## Troubleshooting
-
-### App won't start on macOS
-- Check Java 20+ is installed: `java -version`
-- Try running: `./run-macos.sh`
-
-### Conversions seem incorrect
-- Ensure all input values are valid numbers
-- Check decimal points are correct
-- Verify the input unit is selected
-
-### Theme not working
-- Restart the application
-- Check system theme settings
 
 ## Contributing
 
-Contributions are welcome! Please:
+Contributions are welcome! The UI is still a rough draft and can be significantly improved. Please feel free to suggest enhancements or submit pull requests.
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -250,7 +183,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Author
 
 **Paras Maharjan**
-- Email: paras.maharjan10@gmail.com
+- Email: paras.maharjan10@gmail.com/paras.maharjan@live.com
 - GitHub: [@par-mhr](https://github.com/par-mhr)
 
 ## Acknowledgments
@@ -263,11 +196,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For bugs, feature requests, or questions:
 - Open an issue on GitHub
-- Email: paras.maharjan10@gmail.com
+- Email: paras.maharjan10@gmail.com/paras.maharjan@live.com
 
 ---
 
 **Version**: 1.0  
 **Release Date**: April 2026  
-**Status**: Production Ready ✅
+
 
