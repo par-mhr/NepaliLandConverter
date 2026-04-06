@@ -251,7 +251,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Paras Maharjan**
 - Email: paras.maharjan10@gmail.com
-- GitHub: [@parasmahajan10](https://github.com/parasmahajan10)
+- GitHub: [@par-mhr](https://github.com/par-mhr)
 
 ## Acknowledgments
 
