@@ -58,9 +58,9 @@ A cross-platform JavaFX application for converting between different land measur
 
 Or build from source:
 ```bash
-git clone https://github.com/parasmahajan10/NepaliLandConverter.git
+git clone https://github.com/par-mhr/NepaliLandConverter.git
 cd NepaliLandConverter
-./run-macos.sh
+./build-standalone-macos.sh
 ```
 
 ### Windows
@@ -71,9 +71,9 @@ cd NepaliLandConverter
 
 Or build from source:
 ```bash
-git clone https://github.com/parasmahajan10/NepaliLandConverter.git
+git clone https://github.com/par-mhr/NepaliLandConverter.git
 cd NepaliLandConverter
-mvnw javafx:run
+./build-windows.sh
 ```
 
 ### Linux (Debian/Ubuntu)
@@ -90,9 +90,9 @@ nepali-land-converter
 
 Or build from source:
 ```bash
-git clone https://github.com/parasmahajan10/NepaliLandConverter.git
+git clone https://github.com/par-mhr/NepaliLandConverter.git
 cd NepaliLandConverter
-./mvnw javafx:run
+./build-linux.sh
 ```
 
 ## Building from Source
@@ -107,21 +107,12 @@ cd NepaliLandConverter
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/parasmahajan10/NepaliLandConverter.git
+git clone https://github.com/par-mhr/NepaliLandConverter.git
 cd NepaliLandConverter
 ```
 
 2. **Build the application**
 ```bash
-./mvnw clean package
-```
-
-3. **Run the application**
-```bash
-./mvnw javafx:run
-```
-
-### Creating Installers
 
 #### macOS (requires macOS system)
 ```bash
