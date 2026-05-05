@@ -44,9 +44,6 @@ A cross-platform JavaFX application for converting between different land measur
 - Windows 7 or later
 - 64-bit system
 
-### Linux (Debian)
-- Ubuntu 18.04 or later
-- Debian 10 or later
 
 ## Installation
 
@@ -76,25 +73,6 @@ cd NepaliLandConverter
 ./build-windows.sh
 ```
 
-### Linux (Debian/Ubuntu)
-
-1. **Download** the latest `.deb` package from [Releases](https://github.com/parasmahajan10/NepaliLandConverter/releases)
-2. **Install** the package:
-```bash
-sudo apt install ./nepali-land-converter_1.0_amd64.deb
-```
-3. **Launch** from Applications menu or terminal:
-```bash
-nepali-land-converter
-```
-
-Or build from source:
-```bash
-git clone https://github.com/par-mhr/NepaliLandConverter.git
-cd NepaliLandConverter
-./build-linux.sh
-```
-
 ## Building from Source
 
 ### Prerequisites
@@ -122,11 +100,6 @@ cd NepaliLandConverter
 #### Windows (requires Windows system)
 ```bash
 ./build-windows.sh
-```
-
-#### Linux (requires Linux system)
-```bash
-./build-linux.sh
 ```
 
 ## Usage
