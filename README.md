@@ -19,8 +19,7 @@ A cross-platform JavaFX application for converting between different land measur
 
 **Multi-Platform Support**
 - macOS 
-- Windows (
-- Linux (Debian-based distributions)
+- Windows 
 
 **User-Friendly Interface**
 - Light and Dark theme support (follows system preference)
